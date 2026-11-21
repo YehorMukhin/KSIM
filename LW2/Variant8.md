@@ -107,7 +107,7 @@ end
 
 <img width="662" height="627" alt="Знімок екрана 2026-11-21 174226" src="https://github.com/user-attachments/assets/fcf9f04a-bdf0-4592-ab47-88a22d531090" />
 
-Фінальний код моделі та її інтерфейс доступні за [посиланням]().
+Фінальний код моделі та її інтерфейс доступні за [посиланням](Segregation%20Simple%20Extension.nlogox).
 
 <br>
 
