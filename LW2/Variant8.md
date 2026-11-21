@@ -120,6 +120,7 @@ end
 * **number**: 2000
 * **%-similar-wanted**: 30%
 * **number-of-ethnicities**: 3
+* **ticks**: 10
 
 | Рівень агресії | Кінцевий розмір популяції |
 | --- | --- |
