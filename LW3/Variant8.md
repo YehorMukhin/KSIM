@@ -62,18 +62,7 @@ all? turtles [happy?]
 <img width="737" height="521" alt="Знімок екрана 2026-11-23 095012" src="https://github.com/user-attachments/assets/08889114-fd51-426c-a4df-ade39c1cf09e" />
 
 **Налаштування алгоритму пошуку** (вкладка `Search Algorithm`):  
-У дослідженні порівнюються два методи пошуку: **простий генетичний алгоритм (`StandardGA`)** та **випадковий пошук (`RandomSearch`)**. Для забезпечення коректного порівняння для обох алгоритмів встановлено однакові базові обмеження:
-- **Evaluation limit**: `200` (загальна кількість запусків моделі для оцінки рішень);
-- **Best-checking replicates**: `0`;
-- **Use fitness caching**: увімкнено (для прискорення обчислень при повторній оцінці однакових наборів параметрів);
-- **Search Encoding Representation**: `GrayBinaryChromosome` (кодування хромосом кодом Грея).
-
-Для `StandardGA` задано такі параметри еволюції:
-- **population-size**: `20`;
-- **mutation-rate**: `0.05`;
-- **crossover-rate**: `0.7`;
-- **tournament-size**: `3`;
-- **population-model**: `generational`.
+У дослідженні порівнюються два методи пошуку: **простий генетичний алгоритм (`StandardGA`)** та **випадковий пошук (`RandomSearch`)**.
 
 Загальний вигляд вкладки налаштувань для генетичного алгоритму:  
 <img width="741" height="523" alt="Знімок екрана 2026-11-23 100143" src="https://github.com/user-attachments/assets/388f0cfe-dbaf-4445-92a8-8c2895ea4f91" />
